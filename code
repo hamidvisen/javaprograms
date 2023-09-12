@@ -1,0 +1,17 @@
+class NumberPrint{
+    
+public static void main(String args[]){
+    int end = 7;
+   for(int i=1; i<=end; i++){
+       for(int j=end; j>=1; j--){
+           if(j!=i){
+               System.out.print(j);
+           }else{
+               System.out.print("*");
+           }
+          
+       }
+        System.out.println("");
+   }
+}
+}
